@@ -50,8 +50,6 @@ python3 scripts/generate_trace.py --out traces/sample.trace --n 5000
 
 ## Roadmap
 
-- [x] Implement `decodeAddress` (tag / set index / offset extraction)
-- [x] Implement `Cache::access` (hit/miss detection + LRU update/eviction)
 - [ ] Verify hit rate against hand-computed expectations on a tiny trace
 - [ ] Add a second replacement policy (FIFO or random) for comparison
 - [ ] Sweep associativity / set count and plot hit rate vs. configuration
@@ -60,5 +58,4 @@ python3 scripts/generate_trace.py --out traces/sample.trace --n 5000
 ## Why this project
 
 Written to build practical C/C++ fluency and reinforce computer-architecture
-fundamentals (cache hierarchies, replacement policies, address decoding)
-relevant to systems and hardware/software co-design roles.
+fundamentals: cache hierarchies, replacement policies, and address decoding.
